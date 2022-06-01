@@ -25,6 +25,8 @@ The repository covers a project which aims to understand the underlying factors 
 - Google Trends: Google Trends Data for Bitcoin ranging from May 2017 to April 2022
 2.	R Markdown: 
 -	Bitcoin Price Prediction: The central code for this project containing: Exploratory data analysis, data cleaning, feature engineering, feature selection, model engineering and final results.
+-	LSTM for Bitcoin: python notebook containg LSTM analysis
+-	Final-Project-ARFIMA-PROPHET-ARIMA_XREG: MArkdown file containing ARFIMA, Prohet and ARIMA analysis
 3.	Slides: A PowerPoint summarizing our project, process and findings and limitations of resulting model/models.
 
 #### Detailed Project Description: 
