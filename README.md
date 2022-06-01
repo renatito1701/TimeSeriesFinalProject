@@ -20,15 +20,17 @@ The repository covers a project which aims to understand the underlying factors 
 ### Structure of the repository: 
 
 1.	Data 
--	Bitcoin Data: CSV file containing Bitcoin price and additional features ranging from May 2017 to April 2022
+- Bitcoin Data: CSV file containing Bitcoin price and additional features ranging from May 2017 to April 2022
 - S&P500: S&P index data showing open, close, high and low data from May 2021 to May 2020
 - Google Trends: Google Trends Data for Bitcoin ranging from May 2017 to April 2022
-- 
-2.	Predictions: CSV containing our predicted prices 
-3.	R Markdown: 
+2.	R Markdown: 
 -	Bitcoin Price Prediction: The central code for this project containing: Exploratory data analysis, data cleaning, feature engineering, feature selection, model engineering and final results.
-4.	Slides: A PowerPoint summarizing our project, process and findings and limitations of resulting model/models.
+3.	Slides: A PowerPoint summarizing our project, process and findings and limitations of resulting model/models.
 
 #### Detailed Project Description: 
 
 The feasibility of models will be examined via an analysis on bitcoin prices - one of the most prevalent cryptocurrencies. The model architecture should be generalizable to cryptocurrencies with significant trading volumes. We will be modeling our data around the closing prices for any particular day which over a substantial period of time should not deviate from the daily patterns
+
+When building our models we treat the data as time series models, under the assumption that this framework will yield better results.
+
+
